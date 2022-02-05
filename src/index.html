@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Tailwind HTML Starter</title>
+  </head>
+  <body class="flex min-h-screen items-center justify-center dark:bg-stone-800">
+    <div class="text-center">
+      <h1
+        class="text-4xl font-extrabold tracking-tight dark:text-slate-200 sm:text-5xl lg:text-6xl"
+      >
+        Tailwind HTML Starter
+      </h1>
+      <div class="mt-12 flex justify-center space-x-6">
+        <button
+          class="inline-block rounded-md border border-gray-800 px-8 py-4 text-center align-middle text-gray-800 hover:border-gray-600 hover:bg-gray-100 dark:border-stone-300 dark:text-stone-100 dark:hover:bg-stone-700"
+          id="toggle-dark-mode"
+        >
+          Toggle Dark Mode
+        </button>
+        <a
+          href="https://github.com/"
+          class="inline-block rounded-md bg-gray-800 px-8 py-4 text-center align-middle text-white hover:bg-gray-600 dark:bg-stone-200 dark:text-stone-800 dark:hover:bg-stone-300"
+          >Star on Github</a
+        >
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggleBtn = document.querySelector('#toggle-dark-mode')
+        toggleBtn.addEventListener('click', () => {
+          document.documentElement.classList.toggle('dark')
+        })
+      })
+    </script>
+  </body>
+</html>
