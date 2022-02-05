@@ -1,3 +1,4 @@
+@import './home-title';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

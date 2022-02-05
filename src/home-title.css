@@ -1,0 +1,5 @@
+.home {
+  &__title {
+    @apply text-4xl font-extrabold tracking-tight dark:text-slate-200 sm:text-5xl lg:text-6xl;
+  }
+}
