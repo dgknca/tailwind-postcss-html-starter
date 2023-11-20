@@ -2,11 +2,10 @@
   "name": "tailwind-html-starter",
   "version": "0.0.2",
   "description": "A quick start plain HTML + Tailwind + Postcss project template.",
-  "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/style.css -o ./src/output.css  --watch --verbose",
+    "dev": "concurrently \"postcss ./src/style.css -o ./src/output.css --watch --verbose\" \"browser-sync start --server 'src' --files 'src/**/*.*'\"",
     "build": "postcss ./src/style.css -o ./src/output.css --verbose",
-    "prettier-format": "prettier src/**/*.html --write"
+    "format": "prettier src/**/*.{html,css,js} --write"
   },
   "keywords": [
     "tailwindcss starter",
@@ -15,16 +14,17 @@
     "starter",
     "tailwindcss-starter"
   ],
-  "author": "",
+  "author": "Doğukan Çavuş",
   "license": "MIT",
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "postcss-cli": "^9.1.0",
-    "postcss-import": "^15.0.0",
-    "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.1.8"
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5"
   }
 }
