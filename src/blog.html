@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Blog</title>
+  </head>
+  <body class="font-poppins">
+    <div class="flex flex-col pb-2 bg-midnight-blue overflow-hidden">
+      <nav
+        class="flex md:items-start items-center gap-5 bg-gradient-to-b from-black to-transparent justify-between px-8 py-3 w-full max-md:flex-wrap max-md:px-5 max-md:max-w-full"
+      >
+        <div class="flex flex-col">
+          <div
+            class="hidden md:flex gap-5 pb-3 justify-between my-auto text-xs leading-5 max-md:flex-wrap max-md:max-w-full"
+          >
+            <div class="grow whitespace-nowrap">Philosophie et engagements</div>
+            <div class="flex-auto">Calculez I’impact de votre site web</div>
+            <div>Blog</div>
+            <div class="grow whitespace-nowrap">
+              S’inscrire à la newsletter du numérique responsable
+            </div>
+          </div>
+          <div
+            class="flex gap-5 justify-between self-start text-sm leading-5 whitespace-nowrap max-md:flex-wrap max-md:max-w-full"
+          >
+            <img
+              loading="lazy"
+              src="./assets/logo.webp"
+              class="max-w-full aspect-[2.63] w-[107px] md:w-[180px]"
+            />
+            <div class="hidden md:flex gap-5 justify-between pr-3 my-auto">
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Services</div>
+              </div>
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Solutions</div>
+              </div>
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Références</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-3 text-sm font-bold tracking-tight leading-6">
+          <span>Nous contacter</span>
+        </div>
+        <div class="md:hidden">
+          <img
+            loading="lazy"
+            id="hamburger"
+            src="./assets/hamburger.svg"
+            class="my-auto w-6 aspect-square"
+          />
+        </div>
+      </nav>
+      <!-- content section -->
+      <div class="absolute z-0 right-0 top-0 max-w-[645px] hidden md:block">
+        <img
+          loading="lazy"
+          src="./assets/blogs_leaf.png"
+          class="grow w-full aspect-[0.88] max-md:mt-10 max-md:max-w-full"
+        />
+      </div>
+
+      <main
+        class="relative z-10 flex-col items-start self-center pb-12 mt-0 w-full max-w-[1200px] max-md:mt-0 max-md:max-w-full"
+      >
+        <section class="relative pl-5 flex-col items-start max-w-full w-3/4">
+          <div class="flex flex-col max-w-full font-semibold w-[688px]">
+            <div
+              class="flex flex-col lg:flex-row gap-5 justify-between self-start text-6xl tracking-tighter text-lime-400 whitespace-nowrap leading-[90.24px] max-md:text-4xl"
+            >
+              <div class="lg:absolute unset -left-[46px] top-6">
+                <img
+                  loading="lazy"
+                  src="./assets/green-arrow.svg"
+                  class="self-start aspect-square w-[46px]"
+                />
+              </div>
+              <div class="grow max-md:text-4xl">Blogs</div>
+            </div>
+            <div
+              class="mt-9 text-4xl tracking-tighter leading-[51.84px] max-md:max-w-full"
+            >
+              Lorem ipsum dolor sit amet,
+            </div>
+            <div class="self-end mt-8 text-base leading-7 max-md:max-w-full">
+              Lorem ipsum dolor sit amet consectetur. Porta eu urna vel ac at
+              metus. Donec quis quis nunc fringilla. Morbi commodoeu id. In sem
+              parturient nibh volutpat platea vitae quam. Suscipit ne
+            </div>
+          </div>
+        </section>
+
+        <section class="relative w-full mt-[92px] px-6 lg:px-0">
+          <div class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-1 gap-6">
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-1.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="self-start mt-6 ml-4 max-md:ml-2.5">
+                  L'application d'une
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-2.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-3.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-4.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-5.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="self-start mt-6 ml-4 max-md:ml-2.5">
+                  L'application d'une
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-6.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-7.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full">
+              <div
+                class="flex flex-col grow pt-px pb-12 w-full text-base leading-7 rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 max-md:mt-6"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog-8.png"
+                  class="w-full aspect-[1.22]"
+                />
+                <div class="mt-6 mx-4 max-md:mx-2.5">
+                  L'application d'une stratégie numérique
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="relative w-full max-md:max-w-full px-6 lg:px-0 hidden md:block"
+        >
+          <div
+            class="pl-20 overflow-hidden mt-16 max-w-full rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 w-[1200px] max-md:pl-0 max-md:mt-10"
+          >
+            <div class="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+              <div class="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
+                <div
+                  class="flex flex-col self-stretch my-auto text-base max-md:mt-10"
+                >
+                  <div
+                    class="text-4xl font-semibold tracking-tighter leading-[52px]"
+                  >
+                    What is Lorem Ipsum?
+                  </div>
+                  <div class="mt-7 leading-7">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution...
+                  </div>
+                  <div class="flex gap-5 justify-between mt-7 leading-[162.5%]">
+                    <div class="">May 20</div>
+                    <div class="flex-auto text-lime-400">Read more</div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
+                <img
+                  loading="lazy"
+                  src="./assets/blogs/blog.png"
+                  class="grow w-full aspect-[1.32] max-md:mt-10 max-md:max-w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="absolute max-w-[566px] max-h-[556px] -right-[10%] -bottom-[15%] lg:block hidden"
+        >
+          <img
+            src="./assets/blogs/question-leaf.png"
+            alt="leaf"
+            loading="lazy"
+          />
+        </div>
+      </main>
+      <footer
+        class="flex max-w-[1288px] mx-auto flex-col lg:mt-[236px] mt-[62px] w-full"
+      >
+        <div
+          class="flex md:gap-[85px] gap-[14px] justify-between max-w-full text-xl leading-7 text-center text-black whitespace-nowrap w-full max-md:mt-10"
+        >
+          <div class="my-auto max-w-full h-px bg-lime-400 w-full"></div>
+          <div
+            class="justify-center px-9 py-5 bg-lime-400 rounded-lg max-md:px-5"
+          >
+            Contact us
+          </div>
+          <div class="my-auto max-w-full h-px bg-lime-400 w-full"></div>
+        </div>
+        <div class="md:mt-16 mt-0 max-md:mt-10 max-md:max-w-full lg:px-0 px-5">
+          <div class="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+            <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col text-lg md:mt-10">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba9317a8d97527578feda4c7b82e3f3fb43acab544f273a774bacdf56d2b4e69?"
+                  class="max-w-full aspect-[3.33] w-[197px]"
+                />
+                <div class="mt-7">
+                  <span
+                    class="justify-center px-2 mt-10 text-xl font-medium text-black bg-lime-400"
+                  >
+                    Contact us:
+                  </span>
+                </div>
+                <a href="#" class="mt-7 whitespace-nowrap">
+                  Email: demo@greenweb.com
+                </a>
+                <a href="#" class="mt-5">Phone: 555-567-8901</a>
+                <a href="#" class="mt-5 whitespace-nowrap">
+                  Address: 1234 Bethune, France
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col w-[67%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+                <div
+                  class="flex gap-5 justify-between items-start w-full max-md:flex-wrap max-md:max-w-full"
+                >
+                  <div
+                    class="flex gap-5 justify-between mt-1 text-lg max-md:flex-wrap max-md:max-w-full"
+                  >
+                    <div class="grow underline whitespace-nowrap">About us</div>
+                    <div class="underline">Services</div>
+                    <div class="underline">Use Cases</div>
+                    <div class="underline">Pricing</div>
+                    <div class="grow underline">Blog</div>
+                  </div>
+                  <div class="flex gap-5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c65f7682d0f19d8fb6c874ab0fd5dece20ecc4176462cf444961c58f16ba7285?"
+                      class="aspect-square w-[30px]"
+                    />
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f647e6456a2f5aa2b87ac7dbf14361af8a8daed2caa6ed204f8c51f565d1792?"
+                      class="aspect-square fill-white w-[30px]"
+                    />
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6af3bf703154640cce69f0f7be92320d1bce3cf13c85e60eb08ec2cd9d71ea3a?"
+                      class="aspect-square w-[30px]"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="self-end px-8 py-12 mt-16 max-w-full rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 w-[694px] max-md:px-5 max-md:mt-10"
+                >
+                  <div class="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                    <div
+                      class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full"
+                    >
+                      <input
+                        placeholder="Email"
+                        class="justify-center outline-none items-start self-stretch px-12 py-5 my-auto w-full text-lg whitespace-nowrap rounded-lg border border-white border-solid bg-white bg-opacity-10 max-md:px-5 max-md:mt-10"
+                      />
+                    </div>
+                    <div
+                      class="flex flex-col w-[41%] max-md:ml-0 max-md:w-full"
+                    >
+                      <div
+                        class="justify-center self-stretch px-9 py-5 my-auto w-full text-xl leading-7 text-center text-black whitespace-nowrap bg-lime-400 rounded-lg max-md:px-5 max-md:mt-10"
+                      >
+                        Subscribe to news
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="shrink-0 mt-14 h-px bg-white max-md:mt-10 max-md:max-w-full"
+        ></div>
+        <div
+          class="mt-11 px-4 text-xs leading-5 max-md:mt-10 max-md:max-w-full"
+        >
+          Les solutions conçues et développées par GreenWeb:
+        </div>
+        <div
+          class="flex gap-5 justify-between px-20 pt-3.5 pb-8 w-full max-md:flex-wrap max-md:px-5 max-md:max-w-full"
+        >
+          <div class="flex gap-4 max-md:flex-wrap max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="./assets/forest.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+            <img
+              loading="lazy"
+              src="./assets/eco.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+            <img
+              loading="lazy"
+              src="./assets/green-impact.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+          </div>
+          <div
+            class="flex gap-5 justify-between self-start mt-3 text-lg leading-7 whitespace-nowrap max-md:flex-wrap max-md:max-w-full"
+          >
+            <div class="grow">&copy; 2024 Positivus. All Rights Reserved.</div>
+            <div class="underline">Privacy Policy</div>
+          </div>
+        </div>
+      </footer>
+      <!-- Mobile Menu -->
+      <sidebar
+        id="mobileMenu"
+        class="fixed z-50 top-0 overflow-scroll max-h-screen w-full transition-all duration-500 transform -translate-x-full lg:hidden"
+      >
+        <div class="flex flex-col pb-5 mx-auto bg-midnight-blue">
+          <nav
+            class="flex flex-wrap gap-5 justify-between content-start px-6 py-2 w-full"
+          >
+            <img
+              loading="lazy"
+              src="./assets/logo.webp"
+              class="max-w-full aspect-[2.63] w-[104px]"
+            />
+
+            <img
+              loading="lazy"
+              src="./assets/close.svg"
+              id="closeMenu"
+              class="max-w-full aspect-[2.63] w-6"
+            />
+          </nav>
+
+          <div class="flex flex-col px-4 mt-8 w-full text-base leading-7 pb-8">
+            <div>Philosophie et engagements</div>
+            <div class="mt-7">Calculez I’impact de votre site web</div>
+            <div class="mt-7">Blog</div>
+            <div class="mt-6 leading-7">
+              S’inscrire à la newsletter du numérique responsable
+            </div>
+          </div>
+          <div class="flex z-10 flex-col mt-0 w-full text-base leading-7">
+            <div class="accordion-item flex flex-col">
+              <div
+                class="accordion-header flex gap-5 px-4 py-[10px] justify-between w-full text-2xl font-semibold tracking-tight leading-9 whitespace-nowrap transition-all duration-200"
+              >
+                <div class="flex gap-1 justify-between">
+                  <img
+                    loading="lazy"
+                    src="./assets/leaves.svg"
+                    class="my-auto w-3.5 aspect-square"
+                  />
+                  <div class="grow">Services</div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="./assets/down-arrow.svg"
+                  class="my-auto w-6 arrow"
+                />
+              </div>
+              <div class="accordion-wrapper hidden px-4">
+                <div class="mt-4 font-semibold">
+                  Create your eco-friendly website
+                </div>
+                <div class="mt-4">Sustainable IT strategy consulting</div>
+                <div class="mt-4">IT Footprint calculation</div>
+                <div class="mt-4">Green Hosting & Cloud</div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/d2e8acc536bb6eef6f0fd375bac0b33e95fbad2ec645b6a273c729f723c2123c?"
+                  class="ml-6 max-w-full aspect-[100] stroke-[1px] stroke-lime-400 w-[182px]"
+                />
+                <div class="mt-4 whitespace-nowrap">
+                  Collaborative Tool Setup (nextcloud)
+                </div>
+                <div class="mt-4">Alternative analytics Setup</div>
+                <div class="mt-4">Collage animation</div>
+              </div>
+            </div>
+
+            <div class="accordion-item flex flex-col">
+              <div
+                class="accordion-header flex gap-5 px-4 py-[10px] justify-between mt-4 w-full text-2xl font-semibold tracking-tight leading-9 whitespace-nowrap"
+              >
+                <div class="flex gap-1 justify-between">
+                  <img
+                    loading="lazy"
+                    src="./assets/leaves.svg"
+                    class="my-auto w-3.5 aspect-square"
+                  />
+                  <div class="grow">Solutions</div>
+                </div>
+                <img
+                  loading="lazy"
+                  src="./assets/down-arrow.svg"
+                  class="my-auto w-6 arrow"
+                />
+              </div>
+              <div class="accordion-wrapper hidden px-4"></div>
+            </div>
+
+            <div class="accordion-item flex flex-col">
+              <div
+                class="flex gap-1 px-4 py-[10px] justify-between mt-4 text-2xl font-semibold tracking-tight leading-9 whitespace-nowrap"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="flex-auto">Références</div>
+              </div>
+            </div>
+
+            <div class="accordion-item flex flex-col">
+              <div
+                class="flex gap-1 px-4 py-[10px] justify-between mt-7 text-2xl font-semibold tracking-tight leading-9"
+              >
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="flex-auto">Nous contacter</div>
+              </div>
+            </div>
+
+            <footer class="px-5">
+              <div
+                class="mt-11 text-xs text-wrap leading-5 w-2/3 whitespace-nowrap"
+              >
+                Les solutions conçues et développées par GreenWeb :
+              </div>
+              <div class="flex">
+                <img
+                  src="./assets/forest.webp"
+                  alt="forest"
+                  loading="lazy"
+                  class="w-[101px]"
+                />
+                <img
+                  src="./assets/eco.webp"
+                  alt="forest"
+                  loading="lazy"
+                  class="w-[101px]"
+                />
+                <img
+                  src="./assets/green-impact.webp"
+                  alt="forest"
+                  class="w-[101px]"
+                  loading="lazy"
+                />
+              </div>
+            </footer>
+          </div>
+        </div>
+      </sidebar>
+      <!-- End Mobile Menu -->
+    </div>
+  </body>
+  <script src="./scripts/toggle.js"></script>
+  <script src="./scripts/arrcoridon.js"></script>
+</html>

@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Calculez</title>
+  </head>
+  <body class="font-poppins">
+    <div class="relative bg-midnight-blue overflow-hidden">
+      <nav
+        class="bg-cover bg-[100% 54px] flex lg:items-start items-center gap-5 bg-gradient-to-b from-black to-transparent justify-between px-8 py-3 w-full max-md:flex-wrap max-md:px-5 max-md:max-w-full"
+      >
+        <div class="flex flex-col">
+          <div
+            class="hidden lg:flex gap-5 pb-3 justify-between my-auto text-xs leading-5 max-md:flex-wrap max-md:max-w-full"
+          >
+            <div class="grow whitespace-nowrap">Philosophie et engagements</div>
+            <div class="flex-auto">Calculez I’impact de votre site web</div>
+            <div>Blog</div>
+            <div class="grow whitespace-nowrap">
+              S’inscrire à la newsletter du numérique responsable
+            </div>
+          </div>
+          <div
+            class="flex gap-5 justify-between self-start text-sm leading-5 whitespace-nowrap max-md:flex-wrap max-md:max-w-full"
+          >
+            <img
+              loading="lazy"
+              src="./assets/logo.webp"
+              class="max-w-full aspect-[2.63] w-[107px] md:w-[180px]"
+            />
+            <div class="hidden md:flex gap-5 justify-between pr-3 my-auto">
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Services</div>
+              </div>
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Solutions</div>
+              </div>
+              <div class="flex gap-1 justify-between">
+                <img
+                  loading="lazy"
+                  src="./assets/leaves.svg"
+                  class="my-auto w-3.5 aspect-square"
+                />
+                <div class="grow">Références</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-3 text-sm font-bold tracking-tight leading-6">
+          <span>Nous contacter</span>
+        </div>
+        <div class="lg:hidden">
+          <img
+            loading="lazy"
+            id="hamburger"
+            src="./assets/hamburger.svg"
+            class="my-auto w-6 aspect-square"
+          />
+        </div>
+      </nav>
+      <main class="relative">
+        <section
+          class="relative lg:max-w-[600px] lg:mx-auto mx-4 mb-[42px] mt-2"
+        >
+          <img
+            src="./assets/calculate/title-leaf.svg"
+            alt=""
+            class="absolute -right-3 -top-6"
+          />
+          <h1 class="font-medium text-3xl lg:text-5xl">
+            Website environmental impact calculation
+          </h1>
+        </section>
+        <section
+          class="relative mx-4 lg:mx-auto rounded-lg lg:max-w-[927px] pt-[49px] pb-[43px] px-4 lg:px-[130px] border border-green-solid bg-deep-state-blue"
+        >
+          <div class="absolute top-0 -left-[15%]">
+            <img
+              src="./assets/calculate/leaf-2.svg"
+              alt=""
+              class="lg:block hidden"
+            />
+          </div>
+          <div class="absolute top-[10%] -right-[25%]">
+            <img
+              src="./assets/calculate/leaf-3.svg"
+              alt=""
+              class="lg:block hidden"
+            />
+          </div>
+          <form class="flex flex-col relative" action="">
+            <div class="flex flex-col">
+              <label class="" for="website">Enter your website address:</label>
+              <input
+                type="text"
+                id="website"
+                placeholder="Your website address"
+                class="placeholder:text-sage-mist placeholder:text-sm placeholder:font-light border border-green-solid mt-[10px] outline-none text-xl font-semibold rounded-md px-[18px] py-[10px] bg-forest-green"
+              />
+            </div>
+            <div class="flex flex-col mt-5">
+              <p class="font-light text-sm tracking-[0.02rem] mb-2">
+                Advanced Mode:
+                <span class="underline">Add Details To Improve Accuracy</span>
+              </p>
+              <div class="flex flex-col gap-8">
+                <input
+                  type="text"
+                  placeholder="Your email address"
+                  class="w-full border border-green-solid placeholder:text-sage-mist placeholder:text-sm placeholder:font-light mt-[10px] outline-none text-xl font-medium rounded-md px-[18px] py-[10px] bg-forest-green"
+                />
+                <input
+                  type="text"
+                  placeholder="Your company name"
+                  class="w-full border border-green-solid placeholder:text-sage-mist placeholder:text-sm placeholder:font-light mt-[10px] outline-none text-xl font-medium rounded-md px-[18px] py-[10px] bg-forest-green"
+                />
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="w-full border border-green-solid placeholder:text-sage-mist placeholder:text-sm placeholder:font-light mt-[10px] outline-none text-xl font-medium rounded-md px-[18px] py-[10px] bg-forest-green"
+                />
+                <input
+                  type="text"
+                  placeholder="Your phone number"
+                  class="w-full border border-green-solid placeholder:text-sage-mist placeholder:text-sm placeholder:font-light mt-[10px] outline-none text-xl font-medium rounded-md px-[18px] py-[10px] bg-forest-green"
+                />
+              </div>
+            </div>
+            <div class="flex gap-1 mt-8">
+              <input
+                type="checkbox"
+                style="width: 20px; height: 20px; background-color: #a6ce39"
+              />
+              <span class="font-light text-sm"
+                >Subscribe to our newsletter</span
+              >
+            </div>
+            <div class="flex gap-4 items-center justify-center mt-9">
+              <img
+                src="./assets/submit.svg"
+                class="w-[34px] h-[34px]"
+                alt=""
+                srcset=""
+              />
+              <button
+                type="submit"
+                class="rounded-lg px-6 py-3 bg-green-solid font-semibold"
+              >
+                Evaluate my website
+              </button>
+            </div>
+          </form>
+        </section>
+        <section
+          class="grid grid-cols-1 gap-5 lg:max-w-[927px] mx-4 lg:mx-auto lg:mt-[139px] mt-10"
+        >
+          <div
+            class="max-w-[584px] w-full flex justify-between ml-auto bg-deep-state-blue px-3 py-2 rounded-lg"
+          >
+            <div class="flex gap-1 items-center">
+              <img src="./assets/leaves.svg" alt="" />
+              <span class="text-green-solid font-medium"
+                >How is the Green Web index calculated?</span
+              >
+            </div>
+            <img src="./assets/green-arrow-right.svg" alt="" />
+          </div>
+          <div
+            class="max-w-[584px] w-full flex justify-between ml-auto bg-deep-state-blue px-3 py-2 rounded-lg"
+          >
+            <div class="flex gap-1 items-center">
+              <img src="./assets/leaves.svg" alt="" />
+              <span class="text-green-solid font-medium"
+                >Discover our eco-responsible, ethical and European web hosting
+                solution: Digital Forest</span
+              >
+            </div>
+            <img src="./assets/green-arrow-right.svg" alt="" />
+          </div>
+        </section>
+        <!-- <div
+          class="absolute -bottom-[30%] -left-[0%] max-w-[895px] max-h-[884px]"
+        >
+          <img src="./assets/calculate/leaf-1.svg" alt="" />
+          <div
+            class="absolute top-[50%] right-[50%] z-1 max-w-[183px] text-midnight-blue "
+          >
+            <span class=" text-[32px] leading-[48px] font-semibold"
+              >Greenweb</span
+            >
+            help our clients to reduce their digital environmental footprint,
+          </div>
+        </div> -->
+      </main>
+      <footer class="relative z-1 flex max-w-[1283px] mx-auto flex-col w-full">
+        <div class="md:mt-16 mt-0 max-md:mt-10 max-md:max-w-full lg:px-0 px-5">
+          <div class="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+            <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col text-lg md:mt-10">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba9317a8d97527578feda4c7b82e3f3fb43acab544f273a774bacdf56d2b4e69?"
+                  class="max-w-full aspect-[3.33] w-[197px]"
+                />
+                <div class="mt-7">
+                  <span
+                    class="justify-center px-2 mt-10 text-xl font-medium text-black bg-lime-400"
+                  >
+                    Contact us:
+                  </span>
+                </div>
+                <a href="#" class="mt-7 whitespace-nowrap">
+                  Email: demo@greenweb.com
+                </a>
+                <a href="#" class="mt-5">Phone: 555-567-8901</a>
+                <a href="#" class="mt-5 whitespace-nowrap">
+                  Address: 1234 Bethune, France
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col w-[67%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+                <div
+                  class="flex gap-5 justify-between items-start w-full max-md:flex-wrap max-md:max-w-full"
+                >
+                  <div
+                    class="flex gap-5 justify-between mt-1 text-lg max-md:flex-wrap max-md:max-w-full"
+                  >
+                    <a href="#" class="grow underline whitespace-nowrap"
+                      >About us</a
+                    >
+                    <a href="#" class="underline">Services</a>
+                    <a href="#" class="underline">Use Cases</a>
+                    <a href="#" class="underline">Pricing</a>
+                    <a href="#" class="grow underline">Blog</a>
+                  </div>
+                  <div class="flex gap-5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c65f7682d0f19d8fb6c874ab0fd5dece20ecc4176462cf444961c58f16ba7285?"
+                      class="aspect-square w-[30px]"
+                    />
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f647e6456a2f5aa2b87ac7dbf14361af8a8daed2caa6ed204f8c51f565d1792?"
+                      class="aspect-square fill-white w-[30px]"
+                    />
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6af3bf703154640cce69f0f7be92320d1bce3cf13c85e60eb08ec2cd9d71ea3a?"
+                      class="aspect-square w-[30px]"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="self-end px-6 lg:px-8 py-4 lg:py-12 mt-[34px] lg:mt-16 max-w-full rounded-2xl border border-lime-400 border-solid bg-white bg-opacity-10 w-[694px] max-md:px-5 max-md:mt-10"
+                >
+                  <div class="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                    <div
+                      class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full"
+                    >
+                      <input
+                        placeholder="Email"
+                        class="justify-center outline-none items-start self-stretch px-12 py-5 my-auto w-full text-lg whitespace-nowrap rounded-lg border border-white border-solid bg-white bg-opacity-10 max-md:px-5 max-md:mt-10"
+                      />
+                    </div>
+                    <div
+                      class="flex flex-col w-[41%] max-md:ml-0 max-md:w-full"
+                    >
+                      <div
+                        class="justify-center self-stretch px-9 py-5 my-auto w-full text-xl leading-7 text-center text-black whitespace-nowrap bg-lime-400 rounded-lg max-md:px-5 max-md:mt-10"
+                      >
+                        Subscribe to news
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="shrink-0 mt-14 h-px bg-white max-md:mt-10 max-md:max-w-full"
+        ></div>
+        <div
+          class="mt-11 px-4 text-xs leading-5 max-md:mt-10 max-md:max-w-full"
+        >
+          Les solutions conçues et développées par GreenWeb:
+        </div>
+        <div
+          class="flex gap-5 justify-between px-20 pt-3.5 pb-8 w-full max-md:flex-wrap max-md:px-5 max-md:max-w-full"
+        >
+          <div class="flex gap-4 max-md:flex-wrap max-md:max-w-full">
+            <img
+              loading="lazy"
+              src="./assets/forest.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+            <img
+              loading="lazy"
+              src="./assets/eco.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+            <img
+              loading="lazy"
+              src="./assets/green-impact.webp"
+              class="max-w-full aspect-[3.57] w-[180px]"
+            />
+          </div>
+          <div
+            class="flex gap-5 justify-between self-start mt-3 text-lg leading-7 whitespace-nowrap max-md:flex-wrap max-md:max-w-full"
+          >
+            <div class="grow">&copy; 2024 Positivus. All Rights Reserved.</div>
+            <div class="underline">Privacy Policy</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./scripts/toggle.js"></script>
+  <script src="./scripts/arrcoridon.js"></script>
+</html>

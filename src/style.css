@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.arrow.active {
+  animation: rotate 0.2s linear;
+  transform: rotate(180deg);
+}
+
+span,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li ,
+div{
+  letter-spacing: -0.02em;
+  color: #fff;
+}
